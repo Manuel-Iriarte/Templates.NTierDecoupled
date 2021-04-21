@@ -4,4 +4,14 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Templates.NTierDecoupled.Data.Contracts\Templates.NTierDecoupled.Data.Contracts.csproj" />
+    <ProjectReference Include="..\Templates.NTierDecoupled.Data.Entities\Templates.NTierDecoupled.Data.Entities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Configurations\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
 </Project>
